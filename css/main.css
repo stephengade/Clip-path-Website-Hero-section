@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+body, html {
+  height: 100%;
+}
+
+.brand {
+  font-family: 'Great Vibes', cursive;
+}
+
+body {
+  background-color: #bbb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+body #bg {
+  -webkit-clip-path: polygon(100% 0, 100% 62%, 47% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 62%, 47% 100%, 0 100%, 0 0);
+  background-color: #008;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 840px) {
+  body #bg {
+    -webkit-clip-path: polygon(0 0, 73% 0, 46% 100%, 0% 100%);
+            clip-path: polygon(0 0, 73% 0, 46% 100%, 0% 100%);
+  }
+}
+
+body nav header {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body nav header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.9px;
+}
+
+body nav header ul li {
+  list-style-type: none;
+}
+
+body nav header ul li a {
+  text-decoration: underline;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+@media (min-width: 840px) {
+  body nav header ul li a {
+    padding-right: 30px;
+    color: blue;
+  }
+}
+
+body nav header ul li a:hover {
+  color: blue;
+}
+
+@media (min-width: 840px) {
+  body nav header ul li a:hover {
+    color: #fff;
+  }
+}
+
+body header a {
+  color: #fff;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+body header a:hover {
+  text-decoration: underline;
+}
+
+main section#card {
+  background-color: #bbb;
+  width: 80%;
+  padding: 15px;
+  border-radius: 25px;
+  margin: 8px auto;
+}
+
+@media (min-width: 840px) {
+  main section#card {
+    width: 40%;
+    border-color: #008;
+    border-style: groove;
+    margin-right: 50px;
+    margin-top: 100px;
+  }
+}
+
+main ul {
+  list-style-type: none;
+}
+
+main ul li {
+  margin: 12px;
+}
+
+main ul li span {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #2222ff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+main ul li p {
+  display: inline-block;
+  margin-left: 28px;
+  margin-top: 1px;
+}
+
+@media (min-width: 840px) {
+  section#contact {
+    width: 50%;
+    margin-top: -240px;
+  }
+}
+
+section#contact h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 840px) {
+  section#contact h1 {
+    line-height: 50px;
+    text-align: left;
+    padding: 15px 45px;
+  }
+}
+
+section#contact p {
+  color: #bbb;
+  text-align: center;
+  margin-top: -20px;
+}
+
+@media (min-width: 840px) {
+  section#contact p {
+    text-align: left;
+    padding: 15px 45px;
+  }
+}
+
+section#contact button {
+  background-color: #bbb;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border-radius: 25px;
+  border-style: groove;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 840px) {
+  section#contact button {
+    display: inline-block;
+    padding: 15px 45px;
+    margin-left: 45px;
+  }
+}
+
+section#contact button a {
+  color: #008;
+  text-decoration: none;
+}
+
+section#contact button:hover {
+  background-color: #008;
+}
+
+section#contact button a:hover {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
